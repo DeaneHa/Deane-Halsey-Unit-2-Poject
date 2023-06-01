@@ -1,0 +1,62 @@
+body {
+    background: #F8F8FF;
+}
+
+
+h1 {
+    text-shadow:  2px 2px 5px white;
+    text-align: center;
+    border-style: outset;
+    
+}
+
+/*The code on lines 6-11 centers all images on the page and gives them a width of 400px.*/
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    border-style: solid;
+}
+
+/* The code on lines 14-16 centers the text of all h2's on the page*/
+h2 {
+    text-align: center;
+}
+
+
+.sectionsContainer {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.section {
+    border: 4px black solid;
+    margin: 5px;
+}
+
+.One {
+    background: #E6E6FA;
+    border-color: #afa4db;
+}
+
+.Two {
+    background: #FFF0F5;
+    border-color: #e69eb6;
+}
+
+.Three {
+    background: #D8BFD8;
+    border-color: #a871a8;
+}
+
+.pic1 {
+	height: 200px;
+    width: 300px;
+    border: 2px #afa4db solid;
+}
+
+.pic2 {
+     border: 2px #a871a8 solid;
+}
